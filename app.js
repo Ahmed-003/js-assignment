@@ -234,23 +234,23 @@ document.write("<h1>Q11,</h1>");
 document.write("<h2>Multiplication Table of " + number5 + "</h2>");
 
 //Question 12
-// var subject1 = prompt("Enter your First subject name:");
-// var subject2 = prompt("Enter your Second subject name:");
-// var subject3 = prompt("Enter your Third subject name:");
-// var totalMarks = 100;
-// var marks1 = +prompt("Enter your Obtained Marks for " + subject1);
-// var marks2 = +prompt("Enter your Obtained Marks for " + subject2);
-// var marks3 = +prompt("Enter your Obtained Marks for " + subject3);
-// var totalObtained = marks1 + marks2 + marks3
-// var percentage = (totalObtained/(totalMarks * 3)*100)
-// document.write("<h1>Q12,</h1>");
-// document.write("<table  cellspacing='0' cellpadding='8'>");
-// document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>")
-// document.write("<tr><td>",subject1,"</td><td>",totalMarks,"</td><td>",marks1,"</td><td>",((marks1 / totalMarks) * 100),"%</td></tr>")
-// document.write("<tr><td>",subject2,"</td><td>",totalMarks,"</td><td>",marks2,"</td><td>",((marks2 / totalMarks) * 100),"%</td></tr>")
-// document.write("<tr><td>",subject3,"</td><td>",totalMarks,"</td><td>",marks3,"</td><td>",((marks3 / totalMarks) * 100),"%</td></tr>")
-// document.write("<tr><th>Total</th><th>",(totalMarks*3),"</th><th>",totalObtained,"</th><th>",percentage,"</th></tr>")
-// document.write("</table>");
+var subject1 = prompt("Enter your First subject name:");
+var subject2 = prompt("Enter your Second subject name:");
+var subject3 = prompt("Enter your Third subject name:");
+var totalMarks = 100;
+var marks1 = +prompt("Enter your Obtained Marks for " + subject1);
+var marks2 = +prompt("Enter your Obtained Marks for " + subject2);
+var marks3 = +prompt("Enter your Obtained Marks for " + subject3);
+var totalObtained = marks1 + marks2 + marks3
+var percentage = (totalObtained/(totalMarks * 3)*100)
+document.write("<h1>Q12,</h1>");
+document.write("<table  cellspacing='0' cellpadding='8'>");
+document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>")
+document.write("<tr><td>",subject1,"</td><td>",totalMarks,"</td><td>",marks1,"</td><td>",((marks1 / totalMarks) * 100),"%</td></tr>")
+document.write("<tr><td>",subject2,"</td><td>",totalMarks,"</td><td>",marks2,"</td><td>",((marks2 / totalMarks) * 100),"%</td></tr>")
+document.write("<tr><td>",subject3,"</td><td>",totalMarks,"</td><td>",marks3,"</td><td>",((marks3 / totalMarks) * 100),"%</td></tr>")
+document.write("<tr><th>Total</th><th>",(totalMarks*3),"</th><th>",totalObtained,"</th><th>",percentage,"</th></tr>")
+document.write("</table>");
 
 //Question 13
 var calculatedNum = 2 + (2 * 6);
